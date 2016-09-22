@@ -50,7 +50,7 @@ More information [here](https://webpack.github.io/docs/configuration.html).
 `opal-webpack` needs to find the correct gems to use with your project so the
 simplest solution is to run it through `rake`.
 
-Here is an example Rakefile
+Rakefile
 ```ruby
 require 'bundler/setup'
 
@@ -69,7 +69,7 @@ task :webpack_watch do
 end
 ```
 
-and the Gemfile
+Gemfile
 ```ruby
 source 'https://rubygems.org'
 
