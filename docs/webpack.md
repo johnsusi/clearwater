@@ -112,4 +112,4 @@ is to put the following in your entry file.
 require 'clearwater'
 ```
 
-This was tested with Opal 0.10.1, Clearwater 1.0.0.rc4, webpack 1.13.2 and opal-webpack 1.0.9.
+This was tested with `Opal` 0.10.1, `Clearwater` 1.0.0.rc4, `webpack` 1.13.2 and `opal-webpack` 1.0.9.
