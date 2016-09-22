@@ -3,7 +3,7 @@
 [Webpack](https://webpack.github.io/)
 is a popular module bundler that can package your clearwater application for the browser.
 
-Webpack is usualy used with javascript projects but with [opal-webpack](https://github.com/cj/opal-webpack/)
+Webpack is usually used with javascript projects but with [opal-webpack](https://github.com/cj/opal-webpack/)
 it can also be used with ruby files.
 
 ## Installation
@@ -43,6 +43,8 @@ module.exports = {
 };
 ```
 
+More information [here](https://webpack.github.io/docs/configuration.html).
+
 ## Building
 
 `opal-webpack` needs to find the correct gems to use with your project so the
@@ -67,7 +69,7 @@ task :webpack_watch do
 end
 ```
 
-More information [here](https://webpack.github.io/docs/configuration.html).
+More information [here](https://github.com/cj/opal-webpack#load-path)
 
 ## Using the bundle
 
