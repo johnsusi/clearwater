@@ -11,7 +11,7 @@ it can also be used with ruby files.
 Webpack uses the npm ecosystem and can be installed with:
 
 ````
-$ npm install -g webpack opal-webpac
+$ npm install -g webpack opal-webpack
 ```
 
 ## Configuring
@@ -69,6 +69,15 @@ task :webpack_watch do
 end
 ```
 
+and the Gemfile
+```ruby
+source 'https://rubygems.org'
+
+gem 'rake'
+gem 'opal'
+gem 'clearwater', '1.0.0.rc4'
+```
+
 More information [here](https://github.com/cj/opal-webpack#load-path)
 
 ## Using the bundle
@@ -102,3 +111,5 @@ is to put the following in your entry file.
 
 require 'clearwater'
 ```
+
+This was tested with Opal 0.10.1, Clearwater 1.0.0.rc4, webpack 1.13.2 and opal-webpack 1.0.9.
